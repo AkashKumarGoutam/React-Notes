@@ -7,8 +7,11 @@ function Navbar() {
       <div className="border-b-2 border-black bg-blue-100 p-2 shadow-xl">
         <div className="flex justify-between px-4">
             <div>
-                <img src="https://media.licdn.com/dms/image/D4D12AQFZkbeVaofxzQ/article-cover_image-shrink_600_2000/0/1708033784779?e=2147483647&v=beta&t=8xtvmqPnaQ-hvmkf3Yj3ZhlytJ6mNTPopeFs5yRwazI"
-                className="w-56 rounded-full" alt="img"/>
+              <div className="flex flex-col justify-center items-center underline ">
+              <h1 className="text-4xl font-semibold"><i><span className="text-yellow-800">G</span>et</i></h1>
+              <h1 className="text-4xl font-semibold"><i><span className="text-yellow-800">i</span>n</i></h1>
+              <h1 className="text-4xl font-semibold"><i><span className="text-yellow-800">T</span>ouch</i></h1>
+              </div>
             </div>
           <div className=" flex flex-col justify-center items-center ">
             <h1 className="text-4xl font-semibold ">
@@ -28,7 +31,7 @@ function Navbar() {
             </div>
           </div>
           <div>
-                <img src="https://static.javatpoint.com/tutorial/reactjs/images/reactjs-features.png" className="w-32 rounded-full" alt="img"/>
+                <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" className="w-32 rounded-full" alt="img"/>
             </div>
         </div>
       </div>
